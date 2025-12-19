@@ -1,18 +1,86 @@
-# React + Vite
+🧠 AI-Powered Collaborative Text Editor + Chat Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight AI-assisted text editor that allows users to write content, interact with an AI chat assistant, and apply AI-generated edits directly inside the editor using intuitive UI interactions.
 
-Currently, two official plugins are available:
+This project is built as part of a frontend assignment to demonstrate practical skills in React, AI integration, UI interactions, and state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## React Compiler
+✍️ Text Editor
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-Note: This will impact Vite dev & build performances.
+Simple editable text area for free-form writing
 
-## Expanding the ESLint configuration
+Supports text selection and replacement
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clean, distraction-free writing experience
+
+
+💬 AI Chat Assistant
+
+Chat panel where users can interact with an AI assistant
+
+Supports:
+
+Grammar fixing
+
+Text rewriting
+
+Content expansion & shortening
+
+
+🧠 AI-Powered Editing
+
+Select text in the editor
+
+Use AI commands like:
+
+Fix grammar
+
+Shorten
+
+Lengthen
+
+Convert to table
+
+Preview AI suggestions before applying changes
+
+🧰 Tool-Using AI (Web Search)
+
+Detects queries like:
+
+“Find the latest news on Next.js 15”
+
+Performs:
+
+Web search
+
+AI summarization
+
+Inserts result into editor automatically
+
+Displays step-by-step status updates in chat
+
+⏳ Loading & UX Enhancements
+
+AI typing / loading indicators
+
+Disabled send button when input is empty
+
+Smooth UI feedback during AI operations
+
+Floating AI trigger button
+
+🛠 Tech Stack
+
+Frontend: React (Vite)
+
+Styling: Tailwind CSS
+
+AI API: OpenAI (Chat Completions)
+
+State Management: React Hooks
+
+Deployment: Vercel / Netlify (optional)
+
+AI responses can be directly applied to the editor
