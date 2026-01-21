@@ -1,3 +1,6 @@
+TO RUN this locally , after downloding the file , in terminal 
+    - npm install
+    - npm start
 🧠 AI-Powered Collaborative Text Editor + Chat Assistant
 
 A lightweight AI-assisted text editor that allows users to write content, interact with an AI chat assistant, and apply AI-generated edits directly inside the editor using intuitive UI interactions.
